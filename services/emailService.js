@@ -5,7 +5,7 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 async function enviarFacturaPorCorreo({ to, pdfPath }) {
   const msg = {
     to,
-    from: 'windoesevolution12@gmail.com', //correo verificado
+    from: 'chalmunozor@ittepic.edu.mx', //correo verificado
     subject: 'Tu factura',
     text: 'Adjuntamos tu factura en PDF. ¡Gracias por tu compra!',
     attachments: [

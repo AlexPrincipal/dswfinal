@@ -11,6 +11,7 @@ const facturaTypeDefs = gql`
     legal_name: String!
     rfc: String!
     email: String!
+    numero: String!       
     productos: [ProductoFacturaInput!]!
   }
 
